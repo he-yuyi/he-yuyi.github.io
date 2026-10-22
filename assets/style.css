@@ -4,3 +4,22 @@
 @media(max-width:600px){.header-inner{flex-wrap:wrap;gap:8px;padding-bottom:9px}nav{width:100%;justify-content:space-between;gap:8px}.nav-link{font-size:13px;padding:7px 0}.hero{padding-top:28px}}
 .cv-pages{max-width:900px;margin:0 auto 24px;display:grid;gap:22px}.cv-pages a{display:block;border:1px solid var(--line);background:white}.cv-pages img{display:block;width:100%;height:auto}.native-pdf{margin-bottom:24px}
 .page.activities{padding:0 40px 45px}@media(max-width:800px){.page.activities{padding-left:25px;padding-right:25px}}@media(max-width:600px){.page.activities{padding-left:21px;padding-right:21px}}
+
+/* A concise identity block and one heading per page. */
+.hero{grid-template-columns:minmax(0,1fr) 260px;gap:64px;align-items:start;padding:56px 0 44px}
+.hero h1{font-size:52px;line-height:1.2;letter-spacing:-1.3px;margin-bottom:16px}
+.chinese-name{font-size:.64em;white-space:nowrap;letter-spacing:0;font-family:Georgia,'Songti SC','Noto Serif CJK SC',serif}
+.hero .affiliation{font-size:16px;line-height:1.65;color:var(--ink);max-width:600px}
+.identity-email{margin-top:8px;font-size:15px}.identity-email a{text-decoration:none}
+.hero .bio{margin-top:25px;max-width:650px;font-size:16px;line-height:1.85}
+.intro-interests{margin-top:22px;font-size:15px;line-height:1.8}.intro-interests span{font-weight:600}
+.profile-links{display:flex;flex-wrap:wrap;gap:12px 26px;margin-top:22px;font-size:14px}
+.home-research{padding-top:30px;border-top:1px solid var(--line);margin-bottom:55px}
+.page-intro{padding:46px 0 25px}.page-intro h1{font:600 23px/1.4 var(--sans);text-transform:uppercase;letter-spacing:1.4px;margin-bottom:0}
+.page-intro>p{margin-top:12px}.page-intro .actions{margin-top:18px}
+.paper-index{padding-top:0}.paper-number{display:block;padding-top:0;margin-bottom:12px}
+.paper-presentations{font-size:13px;line-height:1.85;color:var(--muted);max-width:960px;margin-top:16px}
+.paper-presentations span{font-weight:600;color:var(--ink)}
+.figure-content .result-figure{margin-top:8px}.figure-content{padding-bottom:22px}
+@media(max-width:800px){.hero{grid-template-columns:minmax(0,1fr) 210px;gap:32px}.hero h1{font-size:44px}}
+@media(max-width:600px){.hero{padding:28px 0 34px;gap:23px}.hero h1{font-size:42px;letter-spacing:-1px}.hero .affiliation{font-size:15px}.hero .bio{font-size:15px;margin-top:22px}.identity-email{font-size:14px}.intro-interests{font-size:14px}.profile-links{gap:12px 22px}.page-intro{padding:32px 0 22px}.page-intro h1{font-size:21px}.paper-presentations{font-size:12px}.home-research{padding-top:27px;margin-bottom:35px}}
