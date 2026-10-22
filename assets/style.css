@@ -23,3 +23,4 @@
 .figure-content .result-figure{margin-top:8px}.figure-content{padding-bottom:22px}
 @media(max-width:800px){.hero{grid-template-columns:minmax(0,1fr) 210px;gap:32px}.hero h1{font-size:44px}}
 @media(max-width:600px){.hero{padding:28px 0 34px;gap:23px}.hero h1{font-size:42px;letter-spacing:-1px}.hero .affiliation{font-size:15px}.hero .bio{font-size:15px;margin-top:22px}.identity-email{font-size:14px}.intro-interests{font-size:14px}.profile-links{gap:12px 22px}.page-intro{padding:32px 0 22px}.page-intro h1{font-size:21px}.paper-presentations{font-size:12px}.home-research{padding-top:27px;margin-bottom:35px}}
+.paper-preview .preview-coauthors{font:14px/1.65 var(--sans);color:var(--muted);letter-spacing:0}
